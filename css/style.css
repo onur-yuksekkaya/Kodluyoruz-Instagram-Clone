@@ -4,7 +4,7 @@
   color: gray;
   background-position: 40%;
   background-size: 6%;
-  background-image: url(../assets/search-solid.svg);
+  background-image: url(../assets/search-solid.svg)!important;
   background-repeat: no-repeat;
 }
 
@@ -45,4 +45,11 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+#search-logo { 
+  background-image: url(../assets/search-solid.svg);
+  background-position: 40%;
+  background-size: 6%;
+  background-repeat: no-repeat;
 }
